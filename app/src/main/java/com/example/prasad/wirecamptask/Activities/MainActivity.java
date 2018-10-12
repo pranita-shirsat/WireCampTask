@@ -1,4 +1,4 @@
-package com.example.prasad.wirecamptask;
+package com.example.prasad.wirecamptask.Activities;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -10,12 +10,12 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
-import com.android.volley.Request;
 import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.prasad.wirecamptask.Model.DataModel;
+import com.example.prasad.wirecamptask.Network.GetAsyncTask;
+import com.example.prasad.wirecamptask.R;
+import com.example.prasad.wirecamptask.Adapters.RecyclerAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;

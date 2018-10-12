@@ -1,4 +1,4 @@
-package com.example.prasad.wirecamptask;
+package com.example.prasad.wirecamptask.Model;
 
 public class DataModel
 {

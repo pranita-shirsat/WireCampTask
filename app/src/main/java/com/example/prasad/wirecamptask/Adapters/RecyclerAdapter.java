@@ -1,9 +1,8 @@
-package com.example.prasad.wirecamptask;
+package com.example.prasad.wirecamptask.Adapters;
 
 import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
-import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.customtabs.CustomTabsIntent;
 import android.support.v7.widget.CardView;
@@ -14,6 +13,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.prasad.wirecamptask.Model.DataModel;
+import com.example.prasad.wirecamptask.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
